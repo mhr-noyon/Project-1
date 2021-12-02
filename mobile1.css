@@ -1,0 +1,533 @@
+.menu-bar{
+   padding-top: 20px;
+   float: left;
+   position: absolute;
+   top: 0;
+   left: -360px;
+   background-color: white;
+   width: 360px;
+   height: 100vh;
+   /* display: none; */
+}
+
+.menu-bar ul{
+   margin-top: 20px;
+   display: block;
+}
+.menu-bar ul li{
+   margin-top: 30px;
+   list-style-type: none;
+}
+.menu-bar ul li a{ 
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+   font-weight: 400;
+   align-items: center;
+   font-family: Tahoma, sans-serif;
+   position: relative;
+   display: block;
+   width: 320px;
+}
+.fa-times{
+   font-size: 35px;
+   position: absolute;
+   top: 15px;
+   left: 300px;
+   cursor: pointer;
+}
+.fa-times:hover{
+   color: rgb(15, 48, 235);
+}
+.fa-bars{
+   font-size: 35px;
+   float: right;
+   cursor: pointer;
+}
+.fa-bars:hover{
+   color: rgb(15, 48, 235);
+}
+.nav-bar .fas{
+   display: block;
+}
+
+
+
+
+.section1{
+   margin-top: 40px;
+   padding: 60px;
+   height: 1500px;
+}
+.desc1{
+   margin-top: 50px;
+   width: 100%;
+}
+.desc1 h3{
+font-size: 20px;
+text-align: center;
+}
+.desc1 h1{
+   margin: 30px 0;
+   font-size: 60px;
+}
+.desc1 p{
+   font-size: 30px;
+   margin: 80px 0 40px 0;
+}
+.img1{
+   width: 100%;
+   float: right;
+   text-align: center;
+}
+.img1 img{
+   margin-top: 40px;
+   width: 100%;
+}
+
+
+
+.section2{
+padding: 40px 60px;
+height: auto;
+}
+.section2 h1{
+   font-size: 60px;
+   margin: 30px 0;
+}
+.div-sec{
+display: block;
+}
+.div-sec .div{
+   width: 100%;
+   text-align: center;
+}
+.div-sec .div img{
+   width: 100%;
+   height: 350px;
+   cursor: pointer;
+}
+.div-sec .div h2{
+font-size: 35px;
+}
+.div-sec .div h2:hover{
+   opacity: .8;
+}
+.div-sec .div h3{
+   font-size: 30px;
+}
+
+
+
+.section3{
+   padding: 40px;
+   width: 100%;
+   height: auto;
+   display: block;
+}
+.section3 .card{
+   width: 100%;
+}
+.section3 .card i{
+font-size: 55px;
+}
+.section3 .card h2{
+   font-size: 40px;
+}
+.section3 .card p{
+   font-size: 25px;
+}
+
+
+
+.section4{
+   padding: 60px;
+   width: 100%;
+   height: auto;
+   background-color: white;
+   color: black;
+}
+.img2{
+   width: 100%;
+   float: none;
+   text-align: left;
+   padding-right: 0px;
+}
+.img2 img{
+   margin-top: 10px;
+   width: 100%;
+}
+.desc2{
+   display: block;
+   padding-left: 0px;
+   margin-top: 50px;
+   float: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: 100%;
+}
+.desc2 h1{
+font-size: 70px;
+}
+
+
+
+.section5{
+   padding: 60px;
+   display: block;
+   text-align: center;
+}
+.section5 h2{
+font-size: 40px;
+margin-bottom: 25px;
+}
+.section5 h1{
+   font-size: 80px;
+}
+.section5 p{
+   font-size: 25px;
+}
+.section5 .div1{
+   width: 100%;
+}
+.section5 .div2{
+   width: 100%;
+   text-align: center;
+   margin: 50px 0;
+}
+.section5 .div3{
+   text-align: center;
+   width: 100%;
+}
+
+
+
+.section6{
+   padding: 60px;
+}
+.section6 > h3{
+  text-align: center;
+}
+.section6 > h1{
+   font-size: 35px;
+}
+.section6 > p{
+   font-size: 20px;
+}
+.section6 .grid-cont{
+   width: 100%;
+   display: block;
+   justify-content: space-between;
+}
+.section6 .grid{
+   width: 100%;
+   /* display: block; */
+   padding: 20px 0;
+   position: relative;
+   overflow: hidden;
+   border-radius: 5px;
+   
+}
+
+.section7{
+   padding: 80px 60px;
+   width: 100%;
+   background-color: #001C28;
+   color: white;
+   height: 1400px;
+}
+.desc3{
+   float: none;
+   width: 100%;
+}
+.desc3 h1{
+   margin: 20px 0;
+   font-size: 50px;
+}
+.desc3 p{
+   font-size: 20px;
+}
+.desc3 img{
+   width: 180px;
+   margin: 20px auto;
+}
+.img3{
+   width: 100%;
+   float: none;
+   margin-top: 20px;
+   text-align: center;
+}
+.img3 img{
+   width: 100%;
+}
+
+
+
+.section8{
+   text-align: center;
+   padding: 80px 60px;
+}
+
+.section8 > h3{
+   font-size: 15px;
+   color: rgb(17, 52, 250);
+}
+.section8 h1{
+   margin: 20px 0;
+   font-size: 30px;
+}
+.review-sec{
+   display: block;
+   justify-content: space-between;
+   margin-top: 80px;
+}
+.review-sec .review{
+   width:100%;
+   margin-top: 80px;
+}
+.review-sec .review p{
+   margin: 25px 0;
+   font-size: 20px;
+}
+.profile img{
+   margin-right: 10px;
+}
+.profile h3{
+   margin-top: 20px;
+}
+.review-sec .review img{
+   width: 60px;
+}
+
+
+
+footer{
+   padding: 20px 60px;
+   width: 100%;
+   background-color: #001C28;
+   color: white;
+   height: auto;
+}
+.grid-cont2{
+   width: 100%;
+   display: block;
+   grid-template-columns: 100%;
+   justify-content: space-between;
+}
+.grid-cont2 .grid2{
+   width: 95%;
+   height: auto;
+   margin-bottom: 20px;
+}
+
+.grid-cont2 .grid2 h1{
+   margin-bottom: 15px;
+   font-size: 25px;
+}
+.grid-cont2 .grid2 h2{
+   margin-bottom: 10px;
+   font-size: 15px;
+}
+.grid-cont2 .grid2 p{
+   margin-bottom: 10px;
+   font-size: 15px;
+}
+footer > p{
+   font-size: 25px;
+   /* vertical-align: bottom; */
+}
+
+
+@media screen and (max-width:580px) {
+   .section1{
+      padding: 40px;
+      height: 1000px;
+   }
+   .desc1 h1{
+      font-size: 40px;
+      margin: 20px 0;
+   }
+   
+   .desc1 p{
+      font-size: 20px;
+      margin: 40px 0;
+   }
+   .desc1 .btn{
+      width: 160px;
+      padding: 10px;
+      font-size: 20px;
+  }
+
+
+  .section2{
+   padding: 40px;
+   height: auto;
+   }
+   .section2 h1{
+      font-size: 40px;
+      margin: 30px 0;
+   }
+   .div-sec{
+   display: block;
+   }
+   .div-sec .div{
+      width: 100%;
+      text-align: center;
+   }
+   .div-sec .div img{
+      width: 100%;
+      height: auto;
+      cursor: pointer;
+   }
+   .div-sec .div h2{
+      font-size: 20px;
+      margin: 15px 0;
+  }
+  .div-sec .div h3{
+      font-size: 20px;
+      margin: 15px 0;
+  }
+
+  
+  
+
+   .section3 .card i{
+   font-size: 30px;
+   }
+   .section3 .card h2{
+      font-size: 25px;
+   }
+   .section3 .card p{
+      font-size: 20px;
+   }
+   
+   .section4{
+      padding: 40px;
+   }
+   .desc2{
+      margin-top: 30px;
+   }
+   .desc2 h1{
+   font-size: 40px;
+   }
+   .desc2 p{
+      font-size: 20px;
+   }
+
+   .desc2 button{
+      width: 160px;
+      padding: 10px;
+      font-size: 20px;
+  }
+
+
+
+  .section5{
+   padding: 60px;
+   display: block;
+   text-align: center;
+   }
+   .section5 h2{
+   font-size: 25px;
+   margin-bottom: 15px;
+   }
+   .section5 h1{
+      font-size: 40px;
+   }
+   .section5 p{
+      font-size: 15px;
+   }
+   .section5 .div2{
+      margin: 40px 0;
+   }
+   
+
+
+   .section6{
+      padding: 40px;
+   }
+   .section6 > h3{
+     text-align: center;
+   }
+   .section6 > h1{
+      font-size: 30px;
+   }
+   .section6 > p{
+      font-size: 20px;
+   }
+   .section6 .grid i{
+      font-size: 30px;
+   }
+   .section6 .grid h2{
+      font-size: 25px;
+      margin: 20px 0;
+   }
+   .section6 .grid p{
+      font-size: 20px;
+   }
+
+
+
+
+   .section7{
+      padding: 60px 40px;
+      height: 1000px;
+   }
+   .desc3 h1{
+      margin: 15px 0;
+      font-size: 35px;
+   }
+   .desc3 p{
+      font-size: 15px;
+   }
+   .desc3 img{
+      width: 150px;
+      margin: 15px auto;
+   }
+
+   .desc3 .btn{
+      width: 160px;
+      padding: 10px;
+      font-size: 20px;
+   }
+   
+
+
+   .section8{
+      padding: 60px 40px;
+   }
+   
+   
+   .section8 h1{
+      margin: 15px 0;
+      font-size: 25px;
+   }
+   
+   .review-sec .review p{
+      margin: 20px 0;
+      font-size: 15px;
+   }
+   .review-sec .review img{
+      width: 50px;
+   }
+   .profile h3{
+      margin-top: 15px;
+      font-size: 15px;
+      color: black;
+  }
+
+
+
+  footer{
+   padding: 20px 40px;
+   }
+
+   .grid-cont2 .grid2 h1{
+      font-size: 20px;
+   }
+   .grid-cont2 .grid2 h2{
+      font-size: 15px;
+   }
+   footer > p{
+      font-size: 20px;
+   }
+}
